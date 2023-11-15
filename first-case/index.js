@@ -1,5 +1,3 @@
-const fs = require("fs");
-
 function statement(invoice, plays) {
   let totalAmount = 0;
   let volumeCredits = 0;
@@ -49,7 +47,4 @@ function statement(invoice, plays) {
   return result;
 }
 
-const plays = JSON.parse(fs.readFileSync("plays.json", "utf8"));
-const invoice = JSON.parse(fs.readFileSync("invoices.json", "utf8"));
-
-console.log(statement(invoice[0], plays));
+module.exports = statement;
