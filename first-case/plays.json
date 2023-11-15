@@ -1,0 +1,17 @@
+{
+  "hamlet": {
+    "name": "Hamlet",
+    "composer": "William Shakespeare",
+    "type": "tragedy"
+  },
+  "as-like": {
+    "name": "As You Like It",
+    "composer": "William Shakespeare",
+    "type": "comedy"
+  },
+  "othello": {
+    "name": "Othello",
+    "composer": "William Shakespeare",
+    "type": "tragedy"
+  }
+}
